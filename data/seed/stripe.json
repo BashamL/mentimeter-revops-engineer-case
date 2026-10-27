@@ -1,0 +1,77 @@
+{
+  "customers": [
+    {
+      "id": "cus_R4nB7wZk2LmP0a",
+      "name": "Nordlys Energi AB",
+      "email": "johan.berg@nordlys.example",
+      "currency": "sek",
+      "metadata": {
+        "workspace_id": "WS-1001"
+      },
+      "default_payment_method": {
+        "brand": "visa",
+        "last4": "4242",
+        "exp_month": 8,
+        "exp_year": 2028
+      },
+      "created": "2025-11-15T10:01:00Z"
+    },
+    {
+      "id": "cus_P9xT2vYh6QdK3s",
+      "name": "Sable & Finch",
+      "email": "amelia.hart@sablefinch.example",
+      "currency": "gbp",
+      "metadata": {
+        "workspace_id": "WS-1010"
+      },
+      "default_payment_method": {
+        "brand": "mastercard",
+        "last4": "4444",
+        "exp_month": 9,
+        "exp_year": 2026
+      },
+      "created": "2026-04-10T08:00:00Z"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "sub_1PxNordlys7Hq2Lw",
+      "customer": "cus_R4nB7wZk2LmP0a",
+      "status": "active",
+      "plan": "PRO",
+      "quantity": 20,
+      "currency": "sek",
+      "amount": 54000,
+      "interval": "year",
+      "current_period_start": "2025-11-15",
+      "current_period_end": "2026-11-14",
+      "cancel_at_period_end": false,
+      "canceled_at": null,
+      "latest_invoice_status": "paid",
+      "metadata": {
+        "workspace_id": "WS-1001"
+      },
+      "created": "2025-11-15T10:02:00Z"
+    },
+    {
+      "id": "sub_1PxSable3Kd9Vb",
+      "customer": "cus_P9xT2vYh6QdK3s",
+      "status": "past_due",
+      "plan": "PRO",
+      "quantity": 5,
+      "currency": "gbp",
+      "amount": 1050,
+      "interval": "year",
+      "current_period_start": "2026-04-10",
+      "current_period_end": "2027-04-09",
+      "cancel_at_period_end": false,
+      "canceled_at": null,
+      "latest_invoice_status": "payment_failed",
+      "last_payment_error": "Your card has expired. Retried 3 times since 10 Oct.",
+      "metadata": {
+        "workspace_id": "WS-1010"
+      },
+      "created": "2026-04-10T08:01:00Z"
+    }
+  ]
+}

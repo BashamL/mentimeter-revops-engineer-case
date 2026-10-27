@@ -1,0 +1,360 @@
+{
+  "users": [
+    {
+      "id": "U04SAMLIND",
+      "name": "sam.lind",
+      "real_name": "Sam Lind",
+      "email": "sam.lind@mentimeter.example",
+      "title": "Account Executive"
+    },
+    {
+      "id": "U04ALEXBRG",
+      "name": "alex.berg",
+      "real_name": "Alex Berg",
+      "email": "alex.berg@mentimeter.example",
+      "title": "Account Executive"
+    },
+    {
+      "id": "U04NOORHDD",
+      "name": "noor.haddad",
+      "real_name": "Noor Haddad",
+      "email": "noor.haddad@mentimeter.example",
+      "title": "Account Executive"
+    },
+    {
+      "id": "U04JRDNRYS",
+      "name": "jordan.reyes",
+      "real_name": "Jordan Reyes",
+      "email": "jordan.reyes@mentimeter.example",
+      "title": "Account Executive"
+    },
+    {
+      "id": "U04PRIYASH",
+      "name": "priya.shah",
+      "real_name": "Priya Shah",
+      "email": "priya.shah@mentimeter.example",
+      "title": "Account Executive"
+    },
+    {
+      "id": "U04ELINHLM",
+      "name": "elin.holm",
+      "real_name": "Elin Holm",
+      "email": "elin.holm@mentimeter.example",
+      "title": "Relationship Manager"
+    },
+    {
+      "id": "U04MRCROSS",
+      "name": "marco.rossi",
+      "real_name": "Marco Rossi",
+      "email": "marco.rossi@mentimeter.example",
+      "title": "Relationship Manager"
+    },
+    {
+      "id": "U04HNNHOKF",
+      "name": "hannah.okafor",
+      "real_name": "Hannah Okafor",
+      "email": "hannah.okafor@mentimeter.example",
+      "title": "Relationship Manager"
+    },
+    {
+      "id": "U04LEAFSCH",
+      "name": "lea.fischer",
+      "real_name": "Lea Fischer",
+      "email": "lea.fischer@mentimeter.example",
+      "title": "Customer Success Manager"
+    },
+    {
+      "id": "U04MAJAEK0",
+      "name": "maja.ek",
+      "real_name": "Maja Ek",
+      "email": "maja.ek@mentimeter.example",
+      "title": "Billing Specialist"
+    },
+    {
+      "id": "U04TOMBCKR",
+      "name": "tom.becker",
+      "real_name": "Tom Becker",
+      "email": "tom.becker@mentimeter.example",
+      "title": "Credit Controller"
+    },
+    {
+      "id": "U04KIMANDS",
+      "name": "kim.andersson",
+      "real_name": "Kim Andersson",
+      "email": "kim.andersson@mentimeter.example",
+      "title": "RevOps Manager"
+    },
+    {
+      "id": "U04SFBOT00",
+      "name": "salesforce",
+      "real_name": "Salesforce",
+      "email": null,
+      "title": "App",
+      "is_bot": true
+    }
+  ],
+  "channels": [
+    {
+      "id": "C04CLOSEDW",
+      "name": "closed-won",
+      "purpose": "Every deal we win. Posted by Salesforce."
+    },
+    {
+      "id": "C04DEALDSK",
+      "name": "deal-desk",
+      "purpose": "Pricing, discounts and approvals."
+    },
+    {
+      "id": "C04FINBILL",
+      "name": "finance-billing",
+      "purpose": "Invoices, POs, VAT and payments."
+    },
+    {
+      "id": "C04REVHELP",
+      "name": "revops-help",
+      "purpose": "Ask RevOps anything about tools and processes."
+    }
+  ],
+  "messages": [
+    {
+      "ts": "2026-08-05T12:40:00Z#001",
+      "channel": "C04FINBILL",
+      "user": "U04MAJAEK0",
+      "text": "Tidewater invoice 2026-0254 went out with 25 licenses, the contract says 52. Crediting it and sending a new one. <@U04HNNHOKF> can you give Ben a heads-up?",
+      "postedAt": "2026-08-05T12:40:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-08-05T12:52:00Z#002",
+      "channel": "C04FINBILL",
+      "user": "U04HNNHOKF",
+      "text": "Ugh, sorry, I typed 25 in the hand-off email. Will tell him.",
+      "postedAt": "2026-08-05T12:52:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-10-02T09:15:00Z#003",
+      "channel": "C04FINBILL",
+      "user": "U04MAJAEK0",
+      "text": "Grünwald's PO arrived three weeks after they signed, so their invoice went out late and their AP team now says it's past their cut-off. Could we get POs before deals hit Closed Won?",
+      "postedAt": "2026-10-02T09:15:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-10-15T14:05:00Z#006",
+      "channel": "C04DEALDSK",
+      "user": "U04SAMLIND",
+      "text": "Nordlys is upgrading from self-service Pro to Enterprise in November. Will their card subscription keep renewing on top of the invoice? They got burned by this with another vendor.",
+      "postedAt": "2026-10-15T14:05:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-10-15T14:20:00Z#007",
+      "channel": "C04DEALDSK",
+      "user": "U04KIMANDS",
+      "text": "Someone has to cancel it in Stripe by hand. Let's make sure we don't forget this time.",
+      "postedAt": "2026-10-15T14:20:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-10-20T15:32:00Z#009",
+      "channel": "C04REVHELP",
+      "user": "U04PRIYASH",
+      "text": "How do I know if finance has invoiced my deal? I keep asking in here 😅",
+      "postedAt": "2026-10-20T15:32:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-10-20T15:40:00Z#010",
+      "channel": "C04REVHELP",
+      "user": "U04KIMANDS",
+      "text": "Honestly there's no good way today. Check Kleer if you have access, or ask Maja.",
+      "postedAt": "2026-10-20T15:40:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-10-20T15:44:00Z#011",
+      "channel": "C04REVHELP",
+      "user": "U04MAJAEK0",
+      "text": "Please fill in the PO and billing contact before you close, that would save me hours every week.",
+      "postedAt": "2026-10-20T15:44:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-11-02T10:10:00Z#008",
+      "channel": "C04DEALDSK",
+      "user": "U04ALEXBRG",
+      "text": "Requesting approval for 40% education discount on Lumen Hochschule (200 Enterprise licenses). Opp is in Salesforce.",
+      "postedAt": "2026-11-02T10:10:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-11-02T13:30:00Z#013",
+      "channel": "C04CLOSEDW",
+      "user": "U04SFBOT00",
+      "text": "🎉 Sam Lind closed Fjordline Media: Enterprise, 40 licenses, 14 980 EUR",
+      "postedAt": "2026-11-02T13:30:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-11-02T16:05:00Z#014",
+      "channel": "C04CLOSEDW",
+      "user": "U04SFBOT00",
+      "text": "🎉 Jordan Reyes closed Corvid Analytics: Pro, 10 licenses, 2 080 USD",
+      "postedAt": "2026-11-02T16:05:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-11-02T17:01:00Z#012",
+      "channel": "C04REVHELP",
+      "user": "U04JRDNRYS",
+      "text": "Corvid signed for 8 Pro licenses but I think I put 10 somewhere. Does that matter?",
+      "postedAt": "2026-11-02T17:01:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-11-03T08:30:00Z#004",
+      "channel": "C04FINBILL",
+      "user": "U04TOMBCKR",
+      "text": "Grünwald Bank 2026-0311 (22,680 EUR) was due 31 Oct and is still unpaid. <@U04MRCROSS> can you nudge Katharina?",
+      "postedAt": "2026-11-03T08:30:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-11-03T08:41:00Z#005",
+      "channel": "C04FINBILL",
+      "user": "U04MRCROSS",
+      "text": "On it 👍",
+      "postedAt": "2026-11-03T08:41:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-11-03T09:12:00Z#015",
+      "channel": "C04CLOSEDW",
+      "user": "U04SFBOT00",
+      "text": "🎉 Sam Lind closed Nordlys Energi: Enterprise, 120 licenses, 432 000 SEK",
+      "postedAt": "2026-11-03T09:12:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-11-03T10:40:00Z#016",
+      "channel": "C04CLOSEDW",
+      "user": "U04SFBOT00",
+      "text": "🎉 Jordan Reyes closed Brightwell Health: Pro, 15 licenses, 3 900 USD",
+      "postedAt": "2026-11-03T10:40:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-11-03T12:00:00Z#017",
+      "channel": "C04CLOSEDW",
+      "user": "U04SFBOT00",
+      "text": "🎉 Sam Lind closed Polar Bear Studios: Pro, 3 licenses, 720 EUR",
+      "postedAt": "2026-11-03T12:00:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-11-03T15:45:00Z#018",
+      "channel": "C04CLOSEDW",
+      "user": "U04SFBOT00",
+      "text": "🎉 Alex Berg closed Lumen Hochschule: Enterprise, 200 licenses, 43 200 EUR",
+      "postedAt": "2026-11-03T15:45:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-11-04T10:00:00Z#019",
+      "channel": "C04CLOSEDW",
+      "user": "U04SFBOT00",
+      "text": "🎉 Alex Berg closed Maris Shipping: Enterprise, 60 licenses, 19 440 EUR",
+      "postedAt": "2026-11-04T10:00:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-11-04T11:20:00Z#020",
+      "channel": "C04CLOSEDW",
+      "user": "U04SFBOT00",
+      "text": "🎉 Priya Shah closed Sable & Finch: Pro, 25 licenses, 5 250 GBP",
+      "postedAt": "2026-11-04T11:20:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-11-04T14:05:00Z#021",
+      "channel": "C04CLOSEDW",
+      "user": "U04SFBOT00",
+      "text": "🎉 Alex Berg closed Kessler Logistik: Enterprise, 80 licenses, 26 496 EUR",
+      "postedAt": "2026-11-04T14:05:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-11-04T15:30:00Z#022",
+      "channel": "C04CLOSEDW",
+      "user": "U04SFBOT00",
+      "text": "🎉 Hannah Okafor closed Halden & Co: Enterprise, 30 licenses, 8 835 GBP",
+      "postedAt": "2026-11-04T15:30:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-11-04T17:10:00Z#023",
+      "channel": "C04CLOSEDW",
+      "user": "U04SFBOT00",
+      "text": "🎉 Priya Shah closed Quill & Ink Publishing: Enterprise, 30 licenses, 10 800 EUR",
+      "postedAt": "2026-11-04T17:10:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-11-05T09:40:00Z#024",
+      "channel": "C04CLOSEDW",
+      "user": "U04SFBOT00",
+      "text": "🎉 Sam Lind closed Torvik Bygg: Enterprise, 30 licenses, 240 000 SEK",
+      "postedAt": "2026-11-05T09:40:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-11-05T11:00:00Z#025",
+      "channel": "C04CLOSEDW",
+      "user": "U04SFBOT00",
+      "text": "🎉 Noor Haddad closed Vantera Group: Enterprise, 400 licenses, 122 400 EUR",
+      "postedAt": "2026-11-05T11:00:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-11-05T14:30:00Z#026",
+      "channel": "C04CLOSEDW",
+      "user": "U04SFBOT00",
+      "text": "🎉 Hannah Okafor closed Okapi Learning: Enterprise, 50 licenses, 18 525 USD",
+      "postedAt": "2026-11-05T14:30:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-11-05T16:20:00Z#027",
+      "channel": "C04CLOSEDW",
+      "user": "U04SFBOT00",
+      "text": "🎉 Alex Berg closed Alpenblick Versicherung: Enterprise, 50 licenses, 18 000 EUR",
+      "postedAt": "2026-11-05T16:20:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-11-06T09:05:00Z#028",
+      "channel": "C04CLOSEDW",
+      "user": "U04SFBOT00",
+      "text": "🎉 Sam Lind closed Helix Pharma: Enterprise, 150 licenses, 47 520 EUR",
+      "postedAt": "2026-11-06T09:05:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-11-06T11:30:00Z#029",
+      "channel": "C04CLOSEDW",
+      "user": "U04SFBOT00",
+      "text": "🎉 Noor Haddad closed Arcadia Retail: Enterprise, 35 licenses, 12 600 EUR",
+      "postedAt": "2026-11-06T11:30:00Z",
+      "threadTs": null
+    },
+    {
+      "ts": "2026-11-06T13:50:00Z#030",
+      "channel": "C04CLOSEDW",
+      "user": "U04SFBOT00",
+      "text": "🎉 Noor Haddad closed Wavecrest Hotels: Enterprise, 28 licenses, 10 080 EUR",
+      "postedAt": "2026-11-06T13:50:00Z",
+      "threadTs": null
+    }
+  ]
+}

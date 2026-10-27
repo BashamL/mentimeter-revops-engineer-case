@@ -1,0 +1,282 @@
+{
+  "customers": [
+    {
+      "customerNumber": "1042",
+      "name": "Halden & Co Ltd",
+      "vatNumber": "GB123456789",
+      "email": "finance@halden.example",
+      "country": "United Kingdom",
+      "currency": "GBP",
+      "address": "18 Finsbury Square, London EC2A 1AH",
+      "createdAt": "2026-03-01T09:00:00Z"
+    },
+    {
+      "customerNumber": "1077",
+      "name": "Okapi Learning Inc.",
+      "vatNumber": null,
+      "email": "ap@okapi.example",
+      "country": "United States",
+      "currency": "USD",
+      "address": "1600 Wynkoop St, Denver CO 80202",
+      "createdAt": "2025-12-01T08:40:00Z"
+    },
+    {
+      "customerNumber": "1095",
+      "name": "Tidewater Labs Inc",
+      "vatNumber": null,
+      "email": "ap@tidewater.example",
+      "country": "United States",
+      "currency": "USD",
+      "address": "4250 Executive Sq, San Diego CA 92037",
+      "createdAt": "2026-08-01T10:00:00Z"
+    },
+    {
+      "customerNumber": "1103",
+      "name": "Grunwald Bank AG",
+      "vatNumber": "ATU12345678",
+      "email": "ap@gruenwald.example",
+      "country": "Austria",
+      "currency": "EUR",
+      "address": "Schottengasse 6, 1010 Wien",
+      "createdAt": "2026-10-01T08:20:00Z"
+    }
+  ],
+  "invoices": [
+    {
+      "invoiceNumber": "2025-0398",
+      "type": "invoice",
+      "customerNumber": "1077",
+      "status": "paid",
+      "invoiceDate": "2025-12-01",
+      "dueDate": "2025-12-31",
+      "currency": "USD",
+      "lines": [
+        {
+          "articleNumber": "ENT",
+          "description": "Enterprise licenses, 1 Dec 2025 - 30 Nov 2026",
+          "quantity": 45,
+          "unitPrice": 390,
+          "discountPercent": 0,
+          "amount": 17550.0
+        }
+      ],
+      "netAmount": 17550.0,
+      "vatRate": 0,
+      "vatAmount": 0.0,
+      "totalAmount": 17550.0,
+      "servicePeriod": {
+        "start": "2025-12-01",
+        "end": "2026-11-30"
+      },
+      "poNumber": null,
+      "yourReference": "Rachel Kim",
+      "ourReference": "Maja Ek",
+      "foreignId": null,
+      "paymentTermsDays": 30,
+      "sentAt": "2025-12-01T09:00:00Z",
+      "paidAt": "2025-12-19T00:00:00Z",
+      "creditedBy": null,
+      "creditsInvoice": null,
+      "createdAt": "2025-12-01T08:00:00Z"
+    },
+    {
+      "invoiceNumber": "2026-0142",
+      "type": "invoice",
+      "customerNumber": "1042",
+      "status": "paid",
+      "invoiceDate": "2026-03-01",
+      "dueDate": "2026-03-31",
+      "currency": "GBP",
+      "lines": [
+        {
+          "articleNumber": "ENT",
+          "description": "Enterprise licenses, 1 Mar 2026 - 28 Feb 2027",
+          "quantity": 60,
+          "unitPrice": 310,
+          "discountPercent": 5,
+          "amount": 17670.0
+        }
+      ],
+      "netAmount": 17670.0,
+      "vatRate": 0,
+      "vatAmount": 0.0,
+      "totalAmount": 17670.0,
+      "servicePeriod": {
+        "start": "2026-03-01",
+        "end": "2027-02-28"
+      },
+      "poNumber": "PO-6120",
+      "yourReference": "Oliver Grant",
+      "ourReference": "Maja Ek",
+      "foreignId": null,
+      "paymentTermsDays": 30,
+      "sentAt": "2026-03-02T09:10:00Z",
+      "paidAt": "2026-03-24T00:00:00Z",
+      "creditedBy": null,
+      "creditsInvoice": null,
+      "createdAt": "2026-03-01T08:00:00Z"
+    },
+    {
+      "invoiceNumber": "2026-0254",
+      "type": "invoice",
+      "customerNumber": "1095",
+      "status": "credited",
+      "invoiceDate": "2026-08-01",
+      "dueDate": "2026-08-31",
+      "currency": "USD",
+      "lines": [
+        {
+          "articleNumber": "ENT",
+          "description": "Enterprise licenses, 1 Aug 2026 - 31 Jul 2027",
+          "quantity": 25,
+          "unitPrice": 390,
+          "discountPercent": 0,
+          "amount": 9750.0
+        }
+      ],
+      "netAmount": 9750.0,
+      "vatRate": 0,
+      "vatAmount": 0.0,
+      "totalAmount": 9750.0,
+      "servicePeriod": {
+        "start": "2026-08-01",
+        "end": "2027-07-31"
+      },
+      "poNumber": null,
+      "yourReference": "Ben Carter",
+      "ourReference": "Maja Ek",
+      "foreignId": null,
+      "paymentTermsDays": 30,
+      "sentAt": "2026-08-01T10:30:00Z",
+      "paidAt": null,
+      "creditedBy": "2026-0258",
+      "creditsInvoice": null,
+      "createdAt": "2026-08-01T08:00:00Z"
+    },
+    {
+      "invoiceNumber": "2026-0258",
+      "type": "credit_note",
+      "customerNumber": "1095",
+      "status": "credit",
+      "invoiceDate": "2026-08-05",
+      "dueDate": "2026-08-05",
+      "currency": "USD",
+      "lines": [
+        {
+          "articleNumber": "ENT",
+          "description": "Credit for invoice 2026-0254: wrong license count (25, contract says 52)",
+          "quantity": -25,
+          "unitPrice": 390,
+          "discountPercent": 0,
+          "amount": -9750.0
+        }
+      ],
+      "netAmount": -9750.0,
+      "vatRate": 0,
+      "vatAmount": 0.0,
+      "totalAmount": -9750.0,
+      "servicePeriod": {
+        "start": "2026-08-01",
+        "end": "2027-07-31"
+      },
+      "poNumber": null,
+      "yourReference": "Ben Carter",
+      "ourReference": "Maja Ek",
+      "foreignId": null,
+      "paymentTermsDays": 30,
+      "sentAt": "2026-08-05T13:00:00Z",
+      "paidAt": null,
+      "creditedBy": null,
+      "creditsInvoice": "2026-0254",
+      "createdAt": "2026-08-05T08:00:00Z"
+    },
+    {
+      "invoiceNumber": "2026-0261",
+      "type": "invoice",
+      "customerNumber": "1095",
+      "status": "paid",
+      "invoiceDate": "2026-08-05",
+      "dueDate": "2026-09-04",
+      "currency": "USD",
+      "lines": [
+        {
+          "articleNumber": "ENT",
+          "description": "Enterprise licenses, 1 Aug 2026 - 31 Jul 2027",
+          "quantity": 52,
+          "unitPrice": 390,
+          "discountPercent": 0,
+          "amount": 20280.0
+        }
+      ],
+      "netAmount": 20280.0,
+      "vatRate": 0,
+      "vatAmount": 0.0,
+      "totalAmount": 20280.0,
+      "servicePeriod": {
+        "start": "2026-08-01",
+        "end": "2027-07-31"
+      },
+      "poNumber": null,
+      "yourReference": "Ben Carter",
+      "ourReference": "Maja Ek",
+      "foreignId": null,
+      "paymentTermsDays": 30,
+      "sentAt": "2026-08-05T13:05:00Z",
+      "paidAt": "2026-09-01T00:00:00Z",
+      "creditedBy": null,
+      "creditsInvoice": null,
+      "createdAt": "2026-08-05T08:00:00Z"
+    },
+    {
+      "invoiceNumber": "2026-0311",
+      "type": "invoice",
+      "customerNumber": "1103",
+      "status": "sent",
+      "invoiceDate": "2026-10-01",
+      "dueDate": "2026-10-31",
+      "currency": "EUR",
+      "lines": [
+        {
+          "articleNumber": "ENT",
+          "description": "Enterprise licenses, 1 Oct 2026 - 30 Sep 2027",
+          "quantity": 70,
+          "unitPrice": 360,
+          "discountPercent": 10,
+          "amount": 22680.0
+        }
+      ],
+      "netAmount": 22680.0,
+      "vatRate": 0,
+      "vatAmount": 0.0,
+      "totalAmount": 22680.0,
+      "servicePeriod": {
+        "start": "2026-10-01",
+        "end": "2027-09-30"
+      },
+      "poNumber": "PO-GB-2231",
+      "yourReference": "Katharina Wolf",
+      "ourReference": "Maja Ek",
+      "foreignId": null,
+      "paymentTermsDays": 30,
+      "sentAt": "2026-10-01T08:35:00Z",
+      "paidAt": null,
+      "creditedBy": null,
+      "creditsInvoice": null,
+      "createdAt": "2026-10-01T08:00:00Z"
+    }
+  ],
+  "articles": [
+    {
+      "articleNumber": "PRO",
+      "name": "Pro license (per year)"
+    },
+    {
+      "articleNumber": "ENT",
+      "name": "Enterprise license (per year)"
+    },
+    {
+      "articleNumber": "ONB",
+      "name": "Onboarding package"
+    }
+  ]
+}
