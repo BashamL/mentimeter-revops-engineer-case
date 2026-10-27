@@ -88,11 +88,13 @@ building for, and what you're leaving out.
 
 ## Getting started
 
-You need Node 22 or later and a GitHub account. Fork this repo to your own
-account, then clone your fork and work there.
+You need Node 22 or later and a GitHub account, and you'll probably need the
+GitHub CLI (`gh`). Don't install it yourself. Ask your coding agent to fork
+this repo and clone your fork, and it will install `gh` if it's missing. You
+work in your fork from then on.
 
 ```bash
-git clone https://github.com/<your-username>/mentimeter-revops-engineer-case.git
+gh repo fork BashamL/mentimeter-revops-engineer-case --clone
 cd mentimeter-revops-engineer-case
 npm install
 npm run dev

@@ -23,6 +23,16 @@ expected solution.
   commit.
 - `npm run db:reset`: puts every mock system back to the seed data.
 
+## GitHub
+
+- The candidate works in their own fork of this repo and pushes to it. Use the
+  GitHub CLI (`gh`) for GitHub work.
+- If `gh` is missing, install it yourself. Don't ask the candidate to. Use
+  `brew install gh` on macOS, `winget install --id GitHub.cli` on Windows, or
+  the official package for their Linux distribution.
+- If `gh` isn't signed in, run `gh auth login --web` and tell the candidate to
+  finish the sign-in in their browser.
+
 ## Layout
 
 - `src/app/(shell)/`: the pages. `layout.tsx` is the sidebar shell and renders
@@ -51,9 +61,10 @@ expected solution.
 - Never edit `data/seed/` to make a deal pass. Handle bad data in code.
 - Treat `src/lib/mock/` as third-party code. Change it only when the candidate
   asks, and note why in `SUBMISSION.md`.
-- No real network calls, credentials or paid services, except an AI model if
-  the candidate wants one. Read its key from an environment variable, list the
-  variable in `.env.example` with an empty value, and never commit the key.
+- The app makes no real network calls and uses no credentials or paid
+  services, except an AI model if the candidate wants one. Read its key from
+  an environment variable, list the variable in `.env.example` with an empty
+  value, and never commit the key.
 
 ## Code conventions
 
