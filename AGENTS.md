@@ -11,9 +11,8 @@ expected solution.
 
 - If the candidate hasn't said what they want to build and who it's for, ask
   before writing code. Don't pick a direction for them.
-- When a choice shapes the result (who gets told, what happens to a deal that
-  isn't ready, what runs automatically and what waits for a person), lay out
-  the options briefly and let the candidate choose.
+- When a choice shapes the result, lay out the options briefly and let the
+  candidate choose.
 - When a rule or the data is ambiguous, ask the candidate how to handle it.
 
 ## Commands

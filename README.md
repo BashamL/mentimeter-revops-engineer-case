@@ -12,6 +12,10 @@ Plan for about 3 hours, and no more than 4. Build it with Claude Code, Cursor,
 Codex or another AI tool. We expect that, and we count your time, not the
 agent's.
 
+An agent can write the code in minutes. Spend the rest of your time deciding
+what to build, checking what it made against the data, and explaining your
+choices.
+
 ## Background
 
 Mentimeter builds a web-based service for audience engagement. More than 20
@@ -108,9 +112,13 @@ Open http://localhost:3000.
    people your Talent Partner names, or send a zip that includes the `.git`
    folder.
 2. **[`SUBMISSION.md`](SUBMISSION.md), filled in**: what you built and who
-   it's for, the decisions behind it, what you chose not to build, and what
-   you'd do next.
-3. **A short video** (Loom or similar, 10 minutes at most). Show what you
+   it's for, the decisions behind it, what you chose not to build, what you'd
+   do next, and how you worked with your AI tool.
+3. **Your agent session**, exported (for example with `/export` in Claude
+   Code). Add the file to the repo or send a link. We read it to see how you
+   steered your tool, not to grade your prompts, so messy is fine. If you
+   can't share it, say why in `SUBMISSION.md`.
+4. **A short video** (Loom or similar, 10 minutes at most). Show what you
    built on this week's deals and walk us through the decisions behind it.
    Tell us one thing your AI tool got wrong or didn't think of, and how this
    would work for real.

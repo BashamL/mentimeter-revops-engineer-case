@@ -13,6 +13,13 @@ the data or the people disagreed, what did you go with and why?
 
 -
 
+## Before it goes live
+
+What would you ask the people involved first? Which of your decisions could
+their answers change?
+
+-
+
 ## How to try it
 
 We'll run `npm install` and `npm run dev`. Where should we click, or what
@@ -21,6 +28,20 @@ should we run, to see it work on this week's deals? Anything else we need?
 ## What I'd do next
 
 -
+
+## Working with your AI tool
+
+Your first prompt, pasted as you wrote it:
+
+>
+
+Something your tool suggested or built that you changed or threw away, and
+why:
+
+Your agent session: the file you added to the repo, or a link. If you can't
+share it, say why:
+
+Roughly how long you spent, and on what:
 
 ## Video
 

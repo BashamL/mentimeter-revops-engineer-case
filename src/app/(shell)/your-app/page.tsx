@@ -12,7 +12,7 @@ export default function YourAppPage() {
         <Sparkles className="size-8 text-primary" />
         <h1 className="font-semibold text-xl">This page is yours</h1>
         <p className="max-w-md text-muted-foreground text-sm">
-          Build what you think fixes the Closed Won hand-off for reps and finance.
+          Build what you think makes the Closed Won hand-off better.
         </p>
         <p className="font-mono text-muted-foreground text-xs">src/app/(shell)/your-app/page.tsx</p>
       </div>

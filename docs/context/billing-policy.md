@@ -17,6 +17,12 @@ assumption and write it down in `SUBMISSION.md`.
 | R7 | If a customer moves from an existing subscription to a new plan, the old subscription must be ended so they are not billed twice. |
 | R8 | Amount = licenses x list price per license x (1 - discount), in the account's currency. |
 
+## Not settled
+
+- Relationship Managers want long-standing customers exempt from R3, so the
+  invoice goes out now and the PO is sorted out afterwards. Nobody has decided
+  whether they get that.
+
 ## What each system needs
 
 | System | Object | Required fields |
@@ -31,7 +37,6 @@ assumption and write it down in `SUBMISSION.md`.
 - Multi-year deals are invoiced one year at a time unless the contract says
   "Paid upfront".
 - Discounts above 25% need Deal Desk approval before the deal is booked.
-- Maja reads every Kleer draft before it goes to the customer.
 - When an invoice is wrong after it's sent, finance credits it in full and
   sends a new one. It never edits a sent invoice.
 - Kleer decides VAT from the customer's country and VAT number. An EU customer
