@@ -93,6 +93,9 @@ GitHub CLI (`gh`). No need to install it yourself. Ask your coding agent to fork
 this repo and clone your fork, and it will install `gh` if it's missing. You
 work in your fork from then on.
 
+Confused? Drop the link of the page you're on right now (https://github.com/BashamL/mentimeter-revops-engineer-case) into a coding agent of your choice, and tell it to get you set up.
+We won't grade you on how good the code is (It will after all depend on what LLM you're using, and we're not fond of reviewing code by hand). We rather want to see your problem solving skills!
+
 ```bash
 gh repo fork BashamL/mentimeter-revops-engineer-case --clone
 cd mentimeter-revops-engineer-case
@@ -167,7 +170,7 @@ We're interested in how you reason about it.
 
 **What if I run out of time?** Stop at 4 hours and write what you'd do next in
 `SUBMISSION.md`. We know you don't have access to anything actually valuable in this repo, we just
-want to see how you take on the challange. 
+want to see your problem solving skills. 
 
 All companies, people, products and prices in this case are fictional and do
 not reflect Mentimeter's real pricing or customers. If anything is unclear, ask
