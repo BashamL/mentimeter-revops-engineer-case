@@ -158,8 +158,9 @@ the same week. You can add your own records in tests.
 `npm install` and `npm run dev` still run it on a laptop with no accounts or
 API keys.
 
-**Can my app call an AI model?** Yes, but it has to work without a key too, or
-tell us exactly what to set. We'll run it ourselves.
+**Can my app call an AI model?** Yes, but we don't have API keys to give you.
+Use your own while you build, and add the variable to `.env.example` with an
+empty value. Don't commit your key.
 
 **Is there a right answer?** No. Two good submissions can look nothing alike.
 

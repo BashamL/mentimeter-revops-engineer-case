@@ -51,8 +51,9 @@ expected solution.
 - Never edit `data/seed/` to make a deal pass. Handle bad data in code.
 - Treat `src/lib/mock/` as third-party code. Change it only when the candidate
   asks, and note why in `SUBMISSION.md`.
-- No real network calls, credentials or paid services. If the candidate wants
-  an AI model in the app, it must still run without a key.
+- No real network calls, credentials or paid services, except an AI model if
+  the candidate wants one. Read its key from an environment variable, list the
+  variable in `.env.example` with an empty value, and never commit the key.
 
 ## Code conventions
 
