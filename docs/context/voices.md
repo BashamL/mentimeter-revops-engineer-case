@@ -14,7 +14,7 @@ agree with each other.
 
 **Kim Andersson, RevOps Manager**
 
-> If someone still has to click 50 button for every deal, we've moved the
+> If someone still has to click 50 buttons for every deal, we've moved the
 > copying, not removed it.
 
 > Whatever we build, I need to trust it. And I don't want to be the person who

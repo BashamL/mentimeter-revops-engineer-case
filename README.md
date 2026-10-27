@@ -93,8 +93,9 @@ GitHub CLI (`gh`). No need to install it yourself. Ask your coding agent to fork
 this repo and clone your fork, and it will install `gh` if it's missing. You
 work in your fork from then on.
 
-Confused? Drop the link of the page you're on right now (https://github.com/BashamL/mentimeter-revops-engineer-case) into a coding agent of your choice, and tell it to get you set up.
-We won't grade you on how good the code is (It will after all depend on what LLM you're using, and we're not fond of reviewing code by hand). We rather want to see your problem solving skills!
+Confused? Paste the link to this page
+(https://github.com/BashamL/mentimeter-revops-engineer-case) into a coding
+agent of your choice and tell it to get you set up.
 
 ```bash
 gh repo fork BashamL/mentimeter-revops-engineer-case --clone
@@ -115,9 +116,10 @@ Open http://localhost:3000.
 
 ## What to submit
 
-1. **Your fork, with your commits.** Commit and push as you go. To share it, add `BashamL` (liam.basham@mentimeter.com) as a
-   collaborator. We only need to read it. Or export the repo as a zip that
-   includes the `.git` folder and send that.
+1. **Your fork, with your commits.** Commit and push as you go. To share it,
+   add `BashamL` (liam.basham@mentimeter.com) as a collaborator. We only need
+   to read it. Or export the repo as a zip that includes the `.git` folder and
+   send that.
 2. **[`SUBMISSION.md`](SUBMISSION.md), filled in**: what you built and who
    it's for, the decisions behind it, what you chose not to build, what you'd
    do next, and how you worked with your AI tool.
@@ -140,6 +142,10 @@ anything else, say so in `SUBMISSION.md`.
 - **How you explain it.** Can you walk us through what you built and the
   choices behind it, clearly and simply?
 
+We won't grade how good the code is. That depends on which LLM you use, and
+we're not fond of reviewing code by hand. We'd rather see how you solve
+problems!
+
 If you're invited to the interview, you'll show us your solution and we'll go
 deeper into your choices. We'll also discuss how it could fit into a bigger
 picture, and finish with questions about your previous experience.
@@ -158,10 +164,10 @@ the same week. You can add your own records in tests.
 `npm install` and `npm run dev` still run it on a laptop with no accounts or
 API keys.
 
-**Can my app call an AI model?** Yes, but we don't have API keys to give you.
-Use your own while you build, and add the variable to `.env.example` with an
-empty value. Don't commit your key. Since we don't have a smooth way to set you up with
-a key, this is absolutely not something you have to incorporate
+**Can my app call an AI model?** Yes, but it's completely optional, since we
+don't have API keys to give you. If you want one, use your own key while you
+build, add the variable to `.env.example` with an empty value, and don't
+commit the key.
 
 **Is there a right answer?** No :)
 
@@ -169,8 +175,8 @@ a key, this is absolutely not something you have to incorporate
 We're interested in how you reason about it.
 
 **What if I run out of time?** Stop at 4 hours and write what you'd do next in
-`SUBMISSION.md`. We know you don't have access to anything actually valuable in this repo, we just
-want to see your problem solving skills. 
+`SUBMISSION.md`. We know you don't have access to anything actually valuable
+in this repo. We just want to see your problem-solving skills.
 
 All companies, people, products and prices in this case are fictional and do
 not reflect Mentimeter's real pricing or customers. If anything is unclear, ask
