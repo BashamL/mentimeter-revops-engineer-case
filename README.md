@@ -88,9 +88,12 @@ building for, and what you're leaving out.
 
 ## Getting started
 
-You need Node 22 or later.
+You need Node 22 or later and a GitHub account. Fork this repo to your own
+account, then clone your fork and work there.
 
 ```bash
+git clone https://github.com/<your-username>/mentimeter-revops-engineer-case.git
+cd mentimeter-revops-engineer-case
 npm install
 npm run dev
 ```
@@ -107,10 +110,10 @@ Open http://localhost:3000.
 
 ## What to submit
 
-1. **This repo, with your commits.** Commit as you go, since we read the
-   history. Push it to a private GitHub repository and give access to the
-   people your Talent Partner names, or send a zip that includes the `.git`
-   folder.
+1. **Your fork, with your commits.** Commit and push as you go, since we read
+   the history. To share it, add `BashamL` (liam.basham@mentimeter.com) as a
+   collaborator. We only need to read it. Or export the repo as a zip that
+   includes the `.git` folder and send that.
 2. **[`SUBMISSION.md`](SUBMISSION.md), filled in**: what you built and who
    it's for, the decisions behind it, what you chose not to build, what you'd
    do next, and how you worked with your AI tool.
