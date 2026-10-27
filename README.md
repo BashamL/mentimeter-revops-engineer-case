@@ -89,7 +89,7 @@ building for, and what you're leaving out.
 ## Getting started
 
 You need Node 22 or later and a GitHub account, and you'll probably need the
-GitHub CLI (`gh`). Don't install it yourself. Ask your coding agent to fork
+GitHub CLI (`gh`). No need to install it yourself. Ask your coding agent to fork
 this repo and clone your fork, and it will install `gh` if it's missing. You
 work in your fork from then on.
 
@@ -112,27 +112,19 @@ Open http://localhost:3000.
 
 ## What to submit
 
-1. **Your fork, with your commits.** Commit and push as you go, since we read
-   the history. To share it, add `BashamL` (liam.basham@mentimeter.com) as a
+1. **Your fork, with your commits.** Commit and push as you go. To share it, add `BashamL` (liam.basham@mentimeter.com) as a
    collaborator. We only need to read it. Or export the repo as a zip that
    includes the `.git` folder and send that.
 2. **[`SUBMISSION.md`](SUBMISSION.md), filled in**: what you built and who
    it's for, the decisions behind it, what you chose not to build, what you'd
    do next, and how you worked with your AI tool.
-3. **Your agent session**, exported (for example with `/export` in Claude
-   Code). Add the file to the repo or send a link. We read it to see how you
-   steered your tool, not to grade your prompts, so messy is fine. If you
-   can't share it, say why in `SUBMISSION.md`.
-4. **A short video** (Loom or similar, 10 minutes at most). Show what you
+3. **A short video** (Loom or similar, 10 minutes at most). Show what you
    built on this week's deals and walk us through the decisions behind it.
    Tell us one thing your AI tool got wrong or didn't think of, and how this
    would work for real.
 
 We'll run your solution with `npm install` and `npm run dev`. If it needs
 anything else, say so in `SUBMISSION.md`.
-
-Submit within 4 to 5 calendar days of receiving the case, or as agreed with
-your Talent Partner.
 
 ## What we look at
 
@@ -165,16 +157,17 @@ API keys.
 
 **Can my app call an AI model?** Yes, but we don't have API keys to give you.
 Use your own while you build, and add the variable to `.env.example` with an
-empty value. Don't commit your key.
+empty value. Don't commit your key. Since we don't have a smooth way to set you up with
+a key, this is absolutely not something you have to incorporate
 
-**Is there a right answer?** No. Two good submissions can look nothing alike.
+**Is there a right answer?** No :)
 
 **What if a rule is unclear?** Decide, apply it consistently and write it down.
 We're interested in how you reason about it.
 
 **What if I run out of time?** Stop at 4 hours and write what you'd do next in
-`SUBMISSION.md`. Something small that works beats something big that half
-works.
+`SUBMISSION.md`. We know you don't have access to anything actually valuable in this repo, we just
+want to see how you take on the challange. 
 
 All companies, people, products and prices in this case are fictional and do
 not reflect Mentimeter's real pricing or customers. If anything is unclear, ask
