@@ -31,17 +31,14 @@ should we run, to see it work on this week's deals? Anything else we need?
 
 ## Working with your AI tool
 
-Your first prompt, pasted as you wrote it:
+Your first prompt, pasted as you wrote it (If you wanna include a larger part of your agent session, KUDOS! Just include an export/link somewhere in here or in a file in the repo:
 
 >
 
 Something your tool suggested or built that you changed or threw away, and
 why:
 
-Your agent session: the file you added to the repo, or a link. If you can't
-share it, say why:
-
-Roughly how long you spent, and on what:
+Roughly where you spent your time:
 
 ## Video
 
